@@ -211,7 +211,7 @@ limit_right = 145
 limit_bottom = 80
 
 [node name="Enemy" parent="." instance=ExtResource("3_lnu2h")]
-position = Vector2(-19, -11)
+position = Vector2(-12, 64)
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(1, 0)

@@ -53,11 +53,10 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
  
 
-
 func _on_animated_sprite_2d_animation_finished() -> void:
 	is_attacking = false
 
 
 func _on_attack_hit_box_body_entered(body: Node2D) -> void:
-	if body.is_in_group("enemie"):
+	if body.is_in_group("enemies"):
 		print(body.name)
